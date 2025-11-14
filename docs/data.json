@@ -615,6 +615,27 @@
         }
       ],
       "has_readme": true
+    },
+    {
+      "name": "nto",
+      "description": "Generate node tuned profile manifests from natural language descriptions",
+      "version": "1.0.0",
+      "commands": [
+        {
+          "name": "generate-tuned-profile",
+          "description": "Generate a Tuned (tuned.openshift.io/v1) profile manifest for the Node Tuning Operator",
+          "synopsis": "/nto:generate-tuned-profile [profile-name] [--summary TEXT] [--include VALUE ...] [--sysctl KEY=VALUE ...] [--match-label KEY[=VALUE] ...] [options]",
+          "argument_hint": "\"[profile-name] [--summary ...] [--sysctl ...] [options]\""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Generate Tuned Profile",
+          "id": "scripts",
+          "description": "Render tuned.openshift.io/v1 manifests using the helper script"
+        }
+      ],
+      "has_readme": true
     }
   ]
 }
