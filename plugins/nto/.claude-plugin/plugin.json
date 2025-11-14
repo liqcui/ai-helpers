@@ -1,8 +1,8 @@
 {
-"name": "openshift-cluster-node-tuning-plugin",
-"description": "Automatically create and apply tuned profile",
-"version": "1.0.0",
-"author": {
-"name": "github.com/openshift-eng"
-}
+    "name": "nto",
+    "description": "Automatically create and apply tuned profile",
+    "version": "1.0.0",
+    "author": {
+        "name": "github.com/openshift-eng"
+    }
 }
