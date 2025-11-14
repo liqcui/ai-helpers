@@ -78,6 +78,11 @@
       "name": "hcp",
       "source": "./plugins/hcp",
       "description": "Generate HyperShift cluster creation commands via hcp CLI from natural language descriptions"
+    },
+    {
+      "name": "nto",
+      "source": "./plugins/nto",
+      "description": "Generate node tuned profile manifests from natural language descriptions"
     }
   ]
 }
